@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    padding: 100px;
+}
+
+.heading {
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+
+}
+.heading1 {
+    font-size: 90px;
+    color: pink;
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+.heading2 {
+    font-size: 90px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+.paragraph {
+    font-size: 15px;
+    color: pink;
+}
+
+.BA {
+    background-color: bisque;
+    width: 100vw;
+}
+.heading, .heading1, .heading2, .paragraph {
+    width: 50vw;
+}
+.totheright {
+    float: left;
+}
+
+/*div */
+.imagebox {
+    padding: none;
+    box-sizing: border-box;
+    margin: none;
+    width: 44%;
+    height: 50%;
+    /* height: 50px; */
+    float: 40px;
+    float: right;
+}
+
+.logo {
+    margin: none;
+    background: transparent;
+}
+{
+
+    /* email label */
+input[type=email] {
+    border-color: rgba(255, 248, 249, 255);
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 100%;
+    padding: 15px 15px;
+    margin: 40px 0;
+    color: rgba(201, 170, 169, 255);
+}
+
+{
+    /*email  function key*/
+input[type=">"] {
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 70px;
+    padding: 5px 5px;
+    margin: 0 0;
+    text-align: center;
+    font-size: x-large;
+    color: rgba(255, 235, 234, 255);
+    background-color: rgba(240, 154, 155, 255)
+}
